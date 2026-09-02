@@ -2,6 +2,8 @@
 
 iPhone 用户免费在线实用工具箱：纯前端静态站，**无后台、无数据库、免安装**，三端（桌面/平板/手机）自适应，已做完整 SEO。
 
+**已部署上线**：https://iosyyds.github.io/ios-toolbox/
+
 ## 功能
 
 | 工具 | 说明 |
@@ -30,18 +32,14 @@ ios-toolbox/
 └── README.md
 ```
 
-## 部署（上线）
-
-静态站可直接托管到任意静态平台，推荐 GitHub Pages：
+## 更新部署
 
 ```bash
-git init && git add -A && git commit -m "init ios-toolbox"
-git remote add origin <你的仓库地址>
-git push -u origin main
-# 然后在仓库 Settings → Pages 选择 main 分支 / (root) 开启即可
+git add -A && git commit -m "update" && git push origin main
+# 约 1 分钟后 GitHub Pages 自动更新
 ```
 
-上线后请把 `index.html`、`robots.txt`、`sitemap.xml` 中的
+若日后绑定自定义域名（如 example.com），请同步把 `index.html`、`robots.txt`、`sitemap.xml` 中的
 `https://iosyyds.github.io/ios-toolbox/` 替换为你的真实域名。
 
 ## 数据来源
