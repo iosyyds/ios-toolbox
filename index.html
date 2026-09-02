@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>果机工具箱 - iPhone 在线实用工具大全｜机型识别·电池健康·IMEI校验·保修查询</title>
+<meta name="description" content="果机工具箱提供 iPhone 用户最常用的免费在线工具：A 代码机型识别、电池健康与循环次数估算、IMEI/序列号校验、保修到期计算、存储容量换算、iOS 版本时间线与全系 iPhone 规格参数，三端自适应、无需安装、无需后台。">
+<meta name="keywords" content="iPhone工具,苹果手机工具,机型识别,iPhone型号查询,A代码,电池健康,循环次数,IMEI校验,序列号查询,保修查询,iOS版本,iPhone规格,免费在线工具">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="author" content="果机工具箱">
+<meta name="theme-color" content="#0a84ff">
+<!-- 上线后替换为实际域名 -->
+<link rel="canonical" href="https://iosyyds.github.io/ios-toolbox/">
+<link rel="alternate" hreflang="zh-CN" href="https://iosyyds.github.io/ios-toolbox/">
+
+<!-- Open Graph -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="果机工具箱">
+<meta property="og:title" content="果机工具箱 - iPhone 在线实用工具大全">
+<meta property="og:description" content="机型识别·电池健康·IMEI校验·保修查询·容量换算·iOS版本·iPhone规格，免费在线、无需后台、三端自适应。">
+<meta property="og:url" content="https://iosyyds.github.io/ios-toolbox/">
+<meta property="og:image" content="https://iosyyds.github.io/ios-toolbox/favicon.svg">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="果机工具箱 - iPhone 在线实用工具大全">
+<meta name="twitter:description" content="机型识别·电池健康·IMEI校验·保修查询·容量换算·iOS版本·iPhone规格">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="favicon.svg">
+<link rel="stylesheet" href="css/style.css">
+
+<!-- 结构化数据：网站 + 工具应用 + 常见问题 -->
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"WebSite",
+      "@id":"https://iosyyds.github.io/ios-toolbox/#website",
+      "url":"https://iosyyds.github.io/ios-toolbox/",
+      "name":"果机工具箱",
+      "alternateName":"iOS Toolbox",
+      "description":"iPhone 用户免费在线实用工具箱：机型识别、电池健康估算、IMEI/序列号校验、保修查询、容量换算、iOS 版本大全。",
+      "inLanguage":"zh-CN"
+    },
+    {
+      "@type":"WebApplication",
+      "name":"iPhone 机型识别器",
+      "url":"https://iosyyds.github.io/ios-toolbox/#model",
+      "applicationCategory":"UtilityApplication",
+      "operatingSystem":"Any",
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"},
+      "description":"输入 A 代码（如 A3092）查询对应 iPhone 机型与销售地区。"
+    },
+    {
+      "@type":"WebApplication",
+      "name":"iPhone 电池健康估算器",
+      "url":"https://iosyyds.github.io/ios-toolbox/#battery",
+      "applicationCategory":"UtilityApplication",
+      "operatingSystem":"Any",
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"},
+      "description":"按循环次数与机型世代估算电池最大容量与是否需要更换。"
+    },
+    {
+      "@type":"WebApplication",
+      "name":"iPhone IMEI 校验器",
+      "url":"https://iosyyds.github.io/ios-toolbox/#imei",
+      "applicationCategory":"UtilityApplication",
+      "operatingSystem":"Any",
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"},
+      "description":"对 IMEI 做格式与 Luhn 校验位验证。"
+    },
+    {
+      "@type":"WebApplication",
+      "name":"iPhone 保修到期计算器",
+      "url":"https://iosyyds.github.io/ios-toolbox/#warranty",
+      "applicationCategory":"UtilityApplication",
+      "operatingSystem":"Any",
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"},
+      "description":"根据购机日期与是否含 AppleCare+ 推算保修截止日期。"
+    },
+    {
+      "@type":"WebApplication",
+      "name":"iPhone 存储容量换算器",
+      "url":"https://iosyyds.github.io/ios-toolbox/#storage",
+      "applicationCategory":"UtilityApplication",
+      "operatingSystem":"Any",
+      "offers":{"@type":"Offer","price":"0","priceCurrency":"CNY"},
+      "description":"GB/GiB/TB/字节 容量互换与十进制二进制口径说明。"
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {"@type":"Question","name":"如何在 iPhone 上查看型号（A 代码）？","acceptedAnswer":{"@type":"Answer","text":"打开「设置」→「通用」→「关于本机」，即可看到型号号码（如 MYD82CH/A）；轻点型号号码可切换为 A 代码（如 A3092）。机身背面底部小字也印有 A 代码。"}},
+        {"@type":"Question","name":"iPhone 电池健康多少需要更换？","acceptedAnswer":{"@type":"Answer","text":"苹果官方建议电池最大容量低于 80% 时建议更换。iPhone 14 及更早机型设计目标为 500 次循环后保留 80% 容量，iPhone 15 及更新机型为 1000 次循环。"}},
+        {"@type":"Question","name":"iOS 26 支持哪些 iPhone？","acceptedAnswer":{"@type":"Answer","text":"iOS 26 支持 iPhone 11 及更新机型，包括 iPhone 11、12、13、14、15、16、17 全系及 iPhone Air、16e、17e。"}}
+      ]
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">跳转到主要内容</a>
+
+<!-- 顶部导航 -->
+<header class="nav">
+  <div class="container nav-inner">
+    <a class="logo" href="#top"><span class="logo-mark">🍎</span><span>果机工具箱</span></a>
+    <nav class="nav-links" aria-label="主导航">
+      <a href="#model">机型识别</a>
+      <a href="#battery">电池健康</a>
+      <a href="#imei">IMEI校验</a>
+      <a href="#warranty">保修查询</a>
+      <a href="#storage">容量换算</a>
+      <a href="#ioslist">iOS版本</a>
+      <a href="#specs">规格参数</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <button class="theme-btn" id="themeBtn" aria-label="切换深色/浅色模式">🌙</button>
+  </div>
+</header>
+
+<!-- 首页 Hero -->
+<section class="hero" id="top">
+  <div class="container">
+    <span class="hero-badge">✨ 免费 · 无需安装 · 无后台 · 三端自适应</span>
+    <h1>iPhone 用户必备的<br>在线实用工具箱</h1>
+    <p class="sub">机型一眼识别、电池健康估算、IMEI/序列号校验、保修到期查询、容量换算…… 纯前端运行，数据只留在你的浏览器，手机电脑平板都能用。</p>
+    <div class="stats">
+      <div><b>8+</b><span>免费工具</span></div>
+      <div><b>40+</b><span>机型数据</span></div>
+      <div><b>0</b><span>后台·免安装</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- 工具快捷条 -->
+<nav class="tool-strip" aria-label="工具快捷跳转">
+  <div class="tool-strip-inner">
+    <a href="#model">🔍 机型识别</a>
+    <a href="#battery">🔋 电池健康</a>
+    <a href="#imei">🆔 IMEI校验</a>
+    <a href="#sn">📋 序列号校验</a>
+    <a href="#warranty">🛡️ 保修查询</a>
+    <a href="#storage">💾 容量换算</a>
+    <a href="#ioslist">📅 iOS版本</a>
+    <a href="#specs">📱 规格参数</a>
+  </div>
+</nav>
+
+<main id="main">
+
+  <!-- 工具总览 -->
+  <section class="block">
+    <div class="container">
+      <div class="block-head">
+        <span class="tag">Tools</span>
+        <h2>全部免费工具</h2>
+        <p>常用 iPhone 小工具一次集齐，全部在浏览器本地计算，无需注册登录。</p>
+      </div>
+      <div class="grid">
+        <a class="tool-card" href="#model"><div class="tool-ico">🔍</div><h3>机型识别器</h3><p>输入 A 代码（如 A3092）或型号号码，立即识别 iPhone 机型与销售地区。</p><div class="go">去使用 <span>→</span></div></a>
+        <a class="tool-card" href="#battery"><div class="tool-ico">🔋</div><h3>电池健康估算</h3><p>按循环次数与机型世代估算电池最大容量，判断是否需要更换。</p><div class="go">去使用 <span>→</span></div></a>
+        <a class="tool-card" href="#imei"><div class="tool-ico">🆔</div><h3>IMEI 校验器</h3><p>校验 IMEI 格式与 Luhn 校验位，识别常见 Apple 号段。</p><div class="go">去使用 <span>→</span></div></a>
+        <a class="tool-card" href="#sn"><div class="tool-ico">📋</div><h3>序列号/型号校验</h3><p>校验序列号与型号号码格式，识别国行等销售地区尾缀。</p><div class="go">去使用 <span>→</span></div></a>
+        <a class="tool-card" href="#warranty"><div class="tool-ico">🛡️</div><h3>保修到期计算</h3><p>输入购机日期，推算 1 年保修或 AppleCare+ 的到期时间。</p><div class="go">去使用 <span>→</span></div></a>
+        <a class="tool-card" href="#storage"><div class="tool-ico">💾</div><h3>容量换算器</h3><p>GB / GiB / TB / 字节互转，看懂手机容量为何"缩水"。</p><div class="go">去使用 <span>→</span></div></a>
+        <a class="tool-card" href="#ioslist"><div class="tool-ico">📅</div><h3>iOS 版本时间线</h3><p>从 iOS 1 到 iOS 26 的发布历史与标志性特性一览。</p><div class="go">去查看 <span>→</span></div></a>
+        <a class="tool-card" href="#specs"><div class="tool-ico">📱</div><h3>iPhone 规格大全</h3><p>全系 iPhone 屏幕、分辨率、芯片、刷新率参数对照表。</p><div class="go">去查看 <span>→</span></div></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工具1：机型识别 -->
+  <section class="block" id="model">
+    <div class="container">
+      <div class="block-head"><span class="tag">Tool · 1</span><h2>iPhone 机型识别器</h2><p>输入机身背面或「关于本机」里的 A 代码，秒查对应机型与销售地区。</p></div>
+      <div class="panel">
+        <h3>输入 A 代码</h3>
+        <p class="desc">A 代码形如 A3092、A2639，可在「设置 → 通用 → 关于本机 → 型号号码」轻点切换查看，或查看机身背面小字。</p>
+        <form id="modelForm">
+          <div class="field">
+            <label for="modelInput">A 代码</label>
+            <input class="input" id="modelInput" list="modelList" placeholder="例如 A3092" inputmode="text" autocomplete="off">
+            <datalist id="modelList"></datalist>
+          </div>
+          <div class="btn-row"><button class="btn" type="submit">识别机型</button><button class="btn ghost" type="reset">清空</button></div>
+        </form>
+        <div class="result" id="modelResult" role="status"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工具2：电池健康 -->
+  <section class="block" id="battery">
+    <div class="container">
+      <div class="block-head"><span class="tag">Tool · 2</span><h2>电池健康估算器</h2><p>按循环次数与机型世代，估算当前电池最大容量（健康度）。</p></div>
+      <div class="panel">
+        <h3>电池健康估算</h3>
+        <p class="desc">iPhone 15 及更新机型可直接在「设置 → 通用 → 关于本机」看到循环次数；更早机型可参考本估算。</p>
+        <form id="batForm">
+          <div class="field">
+            <label for="batCycles">电池循环次数</label>
+            <input class="input" id="batCycles" type="number" min="0" max="3000" placeholder="例如 420" inputmode="numeric">
+          </div>
+          <div class="field">
+            <label for="batGen">机型世代</label>
+            <select class="select" id="batGen">
+              <option value="new">iPhone 15 及更新机型（1000 次循环目标）</option>
+              <option value="old">iPhone 14 及更早机型（500 次循环目标）</option>
+            </select>
+          </div>
+          <div class="btn-row"><button class="btn" type="submit">估算健康度</button></div>
+        </form>
+        <div class="result" id="batResult" role="status"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工具3：IMEI校验 -->
+  <section class="block" id="imei">
+    <div class="container">
+      <div class="block-head"><span class="tag">Tool · 3</span><h2>IMEI 校验器</h2><p>对 IMEI 做格式与 Luhn 校验位验证，识别常见 Apple 号段。</p></div>
+      <div class="panel">
+        <h3>输入 IMEI</h3>
+        <p class="desc">在拨号界面输入 <b>*#06#</b> 即可查看 IMEI；支持 15 位与 17 位（含软件版本号）。</p>
+        <form id="imeiForm">
+          <div class="field">
+            <label for="imeiInput">IMEI 号码</label>
+            <input class="input" id="imeiInput" placeholder="例如 356789012345678" inputmode="numeric">
+          </div>
+          <div class="btn-row"><button class="btn" type="submit">开始校验</button></div>
+        </form>
+        <div class="result" id="imeiResult" role="status"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工具4：序列号/型号校验 -->
+  <section class="block" id="sn">
+    <div class="container">
+      <div class="block-head"><span class="tag">Tool · 4</span><h2>序列号 / 型号号码校验</h2><p>校验序列号与型号号码（Part Number）格式，识别国行等地区尾缀。</p></div>
+      <div class="panel">
+        <h3>输入序列号或型号号码</h3>
+        <p class="desc">序列号在「关于本机」中可查看；型号号码形如 MYD82CH/A，其中 CH 代表中国大陆。</p>
+        <form id="snForm">
+          <div class="field">
+            <label for="snInput">序列号 / 型号号码</label>
+            <input class="input" id="snInput" placeholder="例如 MYD82CH/A 或 F2LZ1234HJKL" autocomplete="off">
+          </div>
+          <div class="btn-row"><button class="btn" type="submit">校验格式</button></div>
+        </form>
+        <div class="result" id="snResult" role="status"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工具5：保修计算 -->
+  <section class="block" id="warranty">
+    <div class="container">
+      <div class="block-head"><span class="tag">Tool · 5</span><h2>保修到期计算器</h2><p>根据购机日期推算标准保修或 AppleCare+ 的到期时间。</p></div>
+      <div class="panel">
+        <h3>保修推算</h3>
+        <p class="desc">大陆 iPhone 自购买凭证日期起，享 1 年有限保修；AppleCare+ 通常延至 2 年。</p>
+        <form id="warrantyForm">
+          <div class="field">
+            <label for="buyDate">购机日期</label>
+            <input class="input" id="buyDate" type="date">
+          </div>
+          <div class="field">
+            <label><input type="checkbox" id="applecare"> 含 AppleCare+ 服务计划（2 年）</label>
+          </div>
+          <div class="btn-row"><button class="btn" type="submit">推算到期日</button></div>
+        </form>
+        <div class="result" id="warrantyResult" role="status"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 工具6：容量换算 -->
+  <section class="block" id="storage">
+    <div class="container">
+      <div class="block-head"><span class="tag">Tool · 6</span><h2>存储容量换算器</h2><p>GB / GiB / TB / 字节互转，看懂"128GB 为什么只剩 119GB"。</p></div>
+      <div class="panel">
+        <h3>容量换算</h3>
+        <p class="desc">系统与 App 用十进制（1GB=10⁹ 字节），计算机用二进制（1GiB=2³⁰ 字节），二者差别造成容量"缩水"。</p>
+        <form id="storeForm">
+          <div class="field">
+            <label for="storeNum">数值</label>
+            <input class="input" id="storeNum" type="number" min="0" placeholder="例如 128" inputmode="decimal">
+          </div>
+          <div style="display:flex;gap:12px;flex-wrap:wrap">
+            <div class="field" style="flex:1;min-width:120px"><label for="storeFrom">从</label>
+              <select class="select" id="storeFrom"><option>B</option><option>KB</option><option selected>GB</option><option>TB</option></select></div>
+            <div class="field" style="flex:1;min-width:120px"><label for="storeTo">换算到</label>
+              <select class="select" id="storeTo"><option>B</option><option>KB</option><option>MB</option><option>GB</option><option>TB</option></select></div>
+          </div>
+          <div class="btn-row"><button class="btn" type="submit">开始换算</button></div>
+        </form>
+        <div class="result" id="storeResult" role="status"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- iOS 版本时间线 -->
+  <section class="block" id="ioslist">
+    <div class="container">
+      <div class="block-head"><span class="tag">Reference</span><h2>iOS 版本时间线</h2><p>从 iOS 1 到 iOS 26 的发布历程与标志性特性。</p></div>
+      <div class="timeline" id="timeline"></div>
+      <p style="text-align:center;font-size:13px;color:var(--text-2);margin-top:14px">注：苹果自 2025 年起采用年度版本号（iOS 26），不再使用 19–25 中间版本号。</p>
+    </div>
+  </section>
+
+  <!-- iPhone 规格参数 -->
+  <section class="block" id="specs">
+    <div class="container">
+      <div class="block-head"><span class="tag">Reference</span><h2>iPhone 全系规格参数</h2><p>屏幕尺寸、分辨率、PPI、芯片与刷新率对照，横向滑动查看。</p></div>
+      <div class="table-wrap"><table class="data" id="specTable" aria-label="iPhone 全系规格参数表"></table></div>
+      <p style="text-align:center;font-size:13px;color:var(--text-2);margin-top:14px">参数整理自 Apple 官方技术规格，部分 PPI 为四舍五入估算值。</p>
+    </div>
+  </section>
+
+  <!-- 实用技巧 -->
+  <section class="block" id="tips">
+    <div class="container">
+      <div class="block-head"><span class="tag">Tips</span><h2>iPhone 实用技巧</h2><p>几个提升日常体验的小技巧，欢迎收藏。</p></div>
+      <div class="articles">
+        <div class="article"><h3>🔋 延长电池寿命</h3><ul>
+          <li>开启「优化电池充电」，夜间充电更安全</li>
+          <li>避免电量长期低于 20% 或高温环境下使用</li>
+          <li>iPhone 15 及更新机型建议开启「80% 上限」充电</li>
+          <li>关闭不常用 App 的后台刷新</li>
+        </ul></div>
+        <div class="article"><h3>🛡️ 保护隐私</h3><ul>
+          <li>「设置→隐私与安全性」逐项审查 App 权限</li>
+          <li>用「隐藏邮件地址」注册，避免垃圾邮件</li>
+          <li>开启「失窃设备保护」，Apple ID 更安全</li>
+          <li>定期检查「App 跟踪透明度」授权</li>
+        </ul></div>
+        <div class="article"><h3>⚡ 效率提升</h3><ul>
+          <li>用「快捷指令」自动化重复操作（如每日打卡）</li>
+          <li>「轻点背面」自定义快捷操作（辅助功能）</li>
+          <li>长按锁屏手电筒/相机图标可快速调节</li>
+          <li>「实况文本」直接复制照片中的文字</li>
+        </ul></div>
+        <div class="article"><h3>📶 网络与信号</h3><ul>
+          <li>信号异常先「设置→蜂窝网络→网络选择」重选</li>
+          <li>5G 耗电可切换「5G 自动」模式</li>
+          <li>Wi-Fi 干扰大时尝试「私人无线局域网地址」</li>
+          <li>飞行模式开关一次可快速重新搜网</li>
+        </ul></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section class="block" id="faq">
+    <div class="container">
+      <div class="block-head"><span class="tag">FAQ</span><h2>常见问题</h2></div>
+      <div class="faq" id="faqBox"></div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 页脚 -->
+<footer>
+  <div class="foot-inner">
+    <div>
+      <div class="brand">🍎 果机工具箱</div>
+      <small>本站为纯前端静态工具站，无后台、不采集任何个人数据，所有计算均在您的浏览器本地完成。工具结果仅供参考，正式维修/保修/验机请以 Apple 官方渠道为准。机型与系统数据整理自 Apple 官方支持页与公开型号库。</small>
+      <small>© <span id="year"></span> 果机工具箱 · 免费使用 · 三端自适应</small>
+    </div>
+    <nav class="foot-links" aria-label="页脚导航">
+      <a href="#top">回到顶部</a>
+      <a href="#model">机型识别</a>
+      <a href="#battery">电池健康</a>
+      <a href="#ioslist">iOS版本</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+  </div>
+</footer>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
